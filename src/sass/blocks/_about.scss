@@ -14,6 +14,9 @@
     &__descr{
         color:black;
         padding-left: 68px;
+        .divider{
+            margin: 0;
+        }
     }
     
     &__text{
