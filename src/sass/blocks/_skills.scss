@@ -1,0 +1,36 @@
+.skills{
+    padding-top: 120px;
+    .divider{
+        margin-bottom: 60px;
+    }
+   &__items{
+        margin-top: 60px;
+        padding: 0 10px;
+       display: grid;
+       grid-template-columns: repeat(4, 270px);
+       grid-template-rows: repeat(4, 270px);
+       gap: 13px;
+       
+   }
+   &__item{
+    padding: 30px 30px 25px 30px;
+    height: 270px;
+    text-align: left;
+    border: 1px solid #000;
+    &-img {
+        display: flex;
+        align-items: center;
+        min-height: 65px;
+    }
+   }
+   h3{
+       padding-top: 20px;
+       padding-bottom: 10px;
+   }
+   p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+   }
+   
+}
